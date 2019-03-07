@@ -42,3 +42,5 @@ is a demo about `protobuf` in /homework1/protobuf, please read about it.
 
 **Task:** add one function to compute the length of a polyline (message `Polyline` in `/homework/protobuf/proto/geometry.proto`)
 and add unittests to verify the correctness.
+
+**What to submit:** A zip file which contains all files in `homework1` directory. 
