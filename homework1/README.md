@@ -3,8 +3,12 @@
 Great oaks from little acorns. Let's setup our environment and learn about basic tools first.
 
 ## Setup environment
-You need a PC with [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
-installed. And make sure you have installed [git](https://git-scm.com/),
+You need a PC or virtual machine with [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
+installed. 
+
+Our visualization tool in future homework is based on OpenGL 3D rendering. We recommend using Ubuntu16.04 native system instead of virtual machine to get the best visualization effect, since 3D acceleration inside virtual machines is just experimental features. If you must use virtual machine for some reasons, we recommend [VirtualBox](https://www.virtualbox.org/wiki/Downloads), which is free and cross-platform.  
+
+Then make sure you have installed [git](https://git-scm.com/),
 [bazel](https://bazel.build/). With `apt-get` we can easily get them.
 ```
 sudo apt-get install git bazel
